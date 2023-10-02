@@ -1,0 +1,243 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html,body {
+    background-color: rgb(0, 0, 33);
+   
+    
+    color: white;
+    font-family: 'Poppins', sans-serif;
+    scroll-behavior: smooth;
+}
+
+nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 80px;
+    background-color: rgb(18, 18, 62);
+    
+}
+
+nav ul {
+    display: flex;
+    justify-content: center;
+}
+
+nav ul li {
+    list-style: none;
+    margin: 0 23px;
+}
+
+.left {
+    font-size: 1.5rem;
+}
+
+.firstsection {
+    display: flex;
+    justify-content: space-around;
+    margin: 40px 0;
+}
+
+.firstsection>div {
+    width: 29%;
+}
+
+.leftsection {
+    margin: 70px 0;
+    font-size: 2.3rem;
+
+}
+
+.rightsection img {
+
+    width: 85%;
+    margin-right: 20%;
+}
+
+main hr {
+    height: 20px;
+    background-color: white;
+   /* margin-left: 6.5%;
+    margin-right: 6.5%;*/
+}
+
+.purple {
+    color: rgb(188, 17, 188);
+}
+
+.right ul li a {
+    text-decoration: none;
+    color: white;
+}
+
+nav ul li a:hover {
+
+    color: #ec751a;
+    font-size: 1.01rem;
+
+}
+
+#element {
+    color: rgb(188, 17, 188);
+}
+
+
+
+
+.work,h2{
+    font-size: 50px;
+    text-align: center;
+    text-decoration: underline;
+}
+/*#project{
+    margin-left: 10%;
+    margin-right: 10%;}*/
+
+.project_container{
+    margin-top: 20px;
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(200px,1fr));
+    gap: 2rem;
+    place-items: center;
+
+}
+.project_container2{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(200px,1fr));
+    gap: 2rem;
+    place-items: center;
+}
+.card,.tributeimage{
+    border-radius: 0.5rem;
+    box-shadow: 5px;
+    overflow: hidden;
+    transition: 0.5s ease-in-out;
+
+}
+.card:hover{
+    transform:scale(1.05);
+    transition: 0.5s ease-in-out;
+}
+.card:hover img{
+    transform:scale(1.05);
+    transition: 0.5s ease-in-out;
+    opacity: 0.8;
+}
+.card:hover .title1{
+    cursor: pointer;
+    background: rgba(245, 5, 161, 0.793);
+    color:white;
+    transform:translateY(0px);
+    
+}
+.title1{
+    padding: 1rem;
+    
+    position: relative;
+    top: -6.5rem;
+    margin-bottom: -6.5rem;
+    transition: 0.5s ease-in-out;
+    transform: translateY(100px);
+    text-align: center;
+    font-weight: bold;
+}  
+.hr_2{
+    height: 20px;
+    background-color: white;
+    margin-top: 40px;
+}
+.quote{
+text-align: center;
+margin-top: 0px;
+font-size: 35px;
+}
+#idbox1{
+   display: flex;
+   justify-content: center;
+    margin-top: 20px;
+
+}
+#idbox2{
+    display: flex;
+    justify-content: center;
+     margin-top: 20px;
+ 
+    
+}
+#idbox1 li{
+padding-left: 15px;
+padding-right: 15px;
+
+
+}
+#idbox2 li{
+    padding-left: 15px;
+    padding-right: 15px;
+    
+    
+    }
+    .contact ul li {
+        list-style: none;
+        font-size: 1.2rem;
+    }
+    
+    .thirdsection{
+        margin-top: 150px;
+        margin-bottom: 200px;
+    }
+
+.foot{
+    
+    text-align: center;
+    padding: 10px;
+    background-color: rgb(14, 14, 58);
+}
+
+
+#Topbutton{
+ text-decoration: none;
+ color: white;
+ 
+}
+#Topbutton:hover{
+    color: #ec751a;
+    font-size: 1.01rem;
+}
+#aboutend{
+    height: 20px;
+    background-color: white;
+}
+.aboutheading{
+margin-left: 15%;
+margin-right: 15%;
+margin-bottom: 60px;
+}
+.aboutheading p{
+    line-height: 2rem;
+}
+#project{
+    margin-top: 40px;
+}
+#redirect_icon{
+    color: white;
+}
+#redirect_icon:hover{
+    color: blue;
+}
+.tribute,.jobform,.parallex,.tempimg,.netfliximg{
+    height: 16.5rem;
+    width: 23rem;
+   
+}
+
+
+/*media Query*/
+@media (max-width:786px){
+    
+}
+
